@@ -186,7 +186,7 @@ for clan in df_all_clans['Clan'].unique():
         text=f"Male: {male_ratio:.1f}%\n\nFemale: {female_ratio:.1f}%",
         showarrow=False,
         align="center",
-        font=dict(size=10, color="Black"),
+        font=dict(size=12, color="Black"),
         xanchor='center',
         yanchor='top'
     )
